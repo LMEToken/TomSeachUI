@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25E1ABC1EA8449E003BFE6C /* SearchSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E1ABB1EA8449E003BFE6C /* SearchSettingView.m */; };
+		E25E1AC01EA84C78003BFE6C /* UIInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E1ABF1EA84C78003BFE6C /* UIInsetsLabel.m */; };
+		E25E1AC31EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E1AC11EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.m */; };
+		E25E1AC61EA84D11003BFE6C /* UILabel+SMC_UIlable.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E1AC51EA84D11003BFE6C /* UILabel+SMC_UIlable.m */; };
+		E25E1AEA1EA869BF003BFE6C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E1AE91EA869BF003BFE6C /* close.png */; };
+		E288673A1EA7390900E1A60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28867391EA7390900E1A60B /* main.m */; };
+		E288673D1EA7390900E1A60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E288673C1EA7390900E1A60B /* AppDelegate.m */; };
+		E28867401EA7390900E1A60B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E288673F1EA7390900E1A60B /* ViewController.m */; };
+		E28867431EA7390900E1A60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28867411EA7390900E1A60B /* Main.storyboard */; };
+		E28867451EA7390900E1A60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28867441EA7390900E1A60B /* Assets.xcassets */; };
+		E28867481EA7390A00E1A60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28867461EA7390A00E1A60B /* LaunchScreen.storyboard */; };
+		E28867531EA7390A00E1A60B /* TomSeachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28867521EA7390A00E1A60B /* TomSeachUITests.m */; };
+		E288675E1EA7390A00E1A60B /* TomSeachUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E288675D1EA7390A00E1A60B /* TomSeachUIUITests.m */; };
+		E288676E1EA73C0900E1A60B /* TomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E288676D1EA73C0900E1A60B /* TomSearchBar.m */; };
+		E28867761EA742E300E1A60B /* search-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E28867721EA742E300E1A60B /* search-icon.png */; };
+		E28867771EA742E300E1A60B /* search-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28867731EA742E300E1A60B /* search-icon@2x.png */; };
+		E28867791EA7494900E1A60B /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = E28867781EA7494900E1A60B /* setting.png */; };
+		E288677C1EA74BCF00E1A60B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E288677B1EA74BCF00E1A60B /* SearchViewController.m */; };
+		E28867881EA758AA00E1A60B /* otherProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28867861EA758AA00E1A60B /* otherProperties.plist */; };
+		E28867891EA758AA00E1A60B /* properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28867871EA758AA00E1A60B /* properties.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E288674F1EA7390A00E1A60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E288672D1EA7390900E1A60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28867341EA7390900E1A60B;
+			remoteInfo = TomSeachUI;
+		};
+		E288675A1EA7390A00E1A60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E288672D1EA7390900E1A60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28867341EA7390900E1A60B;
+			remoteInfo = TomSeachUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25E1ABA1EA8449E003BFE6C /* SearchSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchSettingView.h; path = ../SearchSettingView.h; sourceTree = "<group>"; };
+		E25E1ABB1EA8449E003BFE6C /* SearchSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchSettingView.m; path = ../SearchSettingView.m; sourceTree = "<group>"; };
+		E25E1ABE1EA84C78003BFE6C /* UIInsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInsetsLabel.h; sourceTree = "<group>"; };
+		E25E1ABF1EA84C78003BFE6C /* UIInsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInsetsLabel.m; sourceTree = "<group>"; };
+		E25E1AC11EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		E25E1AC21EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		E25E1AC41EA84D11003BFE6C /* UILabel+SMC_UIlable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SMC_UIlable.h"; sourceTree = "<group>"; };
+		E25E1AC51EA84D11003BFE6C /* UILabel+SMC_UIlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SMC_UIlable.m"; sourceTree = "<group>"; };
+		E25E1AE91EA869BF003BFE6C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E28867351EA7390900E1A60B /* TomSeachUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomSeachUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28867391EA7390900E1A60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E288673B1EA7390900E1A60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E288673C1EA7390900E1A60B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E288673E1EA7390900E1A60B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E288673F1EA7390900E1A60B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E28867421EA7390900E1A60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28867441EA7390900E1A60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28867471EA7390A00E1A60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28867491EA7390A00E1A60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E288674E1EA7390A00E1A60B /* TomSeachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomSeachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28867521EA7390A00E1A60B /* TomSeachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomSeachUITests.m; sourceTree = "<group>"; };
+		E28867541EA7390A00E1A60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28867591EA7390A00E1A60B /* TomSeachUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomSeachUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E288675D1EA7390A00E1A60B /* TomSeachUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomSeachUIUITests.m; sourceTree = "<group>"; };
+		E288675F1EA7390A00E1A60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E288676C1EA73C0900E1A60B /* TomSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TomSearchBar.h; sourceTree = "<group>"; };
+		E288676D1EA73C0900E1A60B /* TomSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TomSearchBar.m; sourceTree = "<group>"; };
+		E28867721EA742E300E1A60B /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon.png"; sourceTree = "<group>"; };
+		E28867731EA742E300E1A60B /* search-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon@2x.png"; sourceTree = "<group>"; };
+		E28867781EA7494900E1A60B /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		E288677A1EA74BCF00E1A60B /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		E288677B1EA74BCF00E1A60B /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		E28867851EA756D800E1A60B /* TomSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TomSearch.h; sourceTree = "<group>"; };
+		E28867861EA758AA00E1A60B /* otherProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = otherProperties.plist; path = ../otherProperties.plist; sourceTree = "<group>"; };
+		E28867871EA758AA00E1A60B /* properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = properties.plist; path = ../properties.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28867321EA7390900E1A60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E288674B1EA7390A00E1A60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28867561EA7390A00E1A60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25E1ABD1EA845CE003BFE6C /* TomSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				E25E1AC41EA84D11003BFE6C /* UILabel+SMC_UIlable.h */,
+				E25E1AC51EA84D11003BFE6C /* UILabel+SMC_UIlable.m */,
+				E25E1ABE1EA84C78003BFE6C /* UIInsetsLabel.h */,
+				E25E1ABF1EA84C78003BFE6C /* UIInsetsLabel.m */,
+				E25E1AC11EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.m */,
+				E25E1AC21EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.h */,
+				E25E1ABA1EA8449E003BFE6C /* SearchSettingView.h */,
+				E25E1ABB1EA8449E003BFE6C /* SearchSettingView.m */,
+			);
+			path = TomSettingView;
+			sourceTree = "<group>";
+		};
+		E288672C1EA7390900E1A60B = {
+			isa = PBXGroup;
+			children = (
+				E28867371EA7390900E1A60B /* TomSeachUI */,
+				E28867511EA7390A00E1A60B /* TomSeachUITests */,
+				E288675C1EA7390A00E1A60B /* TomSeachUIUITests */,
+				E28867361EA7390900E1A60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28867361EA7390900E1A60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28867351EA7390900E1A60B /* TomSeachUI.app */,
+				E288674E1EA7390A00E1A60B /* TomSeachUITests.xctest */,
+				E28867591EA7390A00E1A60B /* TomSeachUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28867371EA7390900E1A60B /* TomSeachUI */ = {
+			isa = PBXGroup;
+			children = (
+				E288676B1EA73C0500E1A60B /* TomSearch */,
+				E288673B1EA7390900E1A60B /* AppDelegate.h */,
+				E288673C1EA7390900E1A60B /* AppDelegate.m */,
+				E288673E1EA7390900E1A60B /* ViewController.h */,
+				E288673F1EA7390900E1A60B /* ViewController.m */,
+				E288677A1EA74BCF00E1A60B /* SearchViewController.h */,
+				E288677B1EA74BCF00E1A60B /* SearchViewController.m */,
+				E28867411EA7390900E1A60B /* Main.storyboard */,
+				E28867441EA7390900E1A60B /* Assets.xcassets */,
+				E28867461EA7390A00E1A60B /* LaunchScreen.storyboard */,
+				E28867491EA7390A00E1A60B /* Info.plist */,
+				E28867381EA7390900E1A60B /* Supporting Files */,
+			);
+			path = TomSeachUI;
+			sourceTree = "<group>";
+		};
+		E28867381EA7390900E1A60B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28867391EA7390900E1A60B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28867511EA7390A00E1A60B /* TomSeachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28867521EA7390A00E1A60B /* TomSeachUITests.m */,
+				E28867541EA7390A00E1A60B /* Info.plist */,
+			);
+			path = TomSeachUITests;
+			sourceTree = "<group>";
+		};
+		E288675C1EA7390A00E1A60B /* TomSeachUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E288675D1EA7390A00E1A60B /* TomSeachUIUITests.m */,
+				E288675F1EA7390A00E1A60B /* Info.plist */,
+			);
+			path = TomSeachUIUITests;
+			sourceTree = "<group>";
+		};
+		E288676B1EA73C0500E1A60B /* TomSearch */ = {
+			isa = PBXGroup;
+			children = (
+				E25E1ABD1EA845CE003BFE6C /* TomSettingView */,
+				E288676F1EA742E300E1A60B /* SearchBarIcons */,
+				E288676C1EA73C0900E1A60B /* TomSearchBar.h */,
+				E288676D1EA73C0900E1A60B /* TomSearchBar.m */,
+				E28867851EA756D800E1A60B /* TomSearch.h */,
+			);
+			path = TomSearch;
+			sourceTree = "<group>";
+		};
+		E288676F1EA742E300E1A60B /* SearchBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				E28867861EA758AA00E1A60B /* otherProperties.plist */,
+				E28867871EA758AA00E1A60B /* properties.plist */,
+				E25E1AE91EA869BF003BFE6C /* close.png */,
+				E28867781EA7494900E1A60B /* setting.png */,
+				E28867721EA742E300E1A60B /* search-icon.png */,
+				E28867731EA742E300E1A60B /* search-icon@2x.png */,
+			);
+			path = SearchBarIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28867341EA7390900E1A60B /* TomSeachUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28867621EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUI" */;
+			buildPhases = (
+				E28867311EA7390900E1A60B /* Sources */,
+				E28867321EA7390900E1A60B /* Frameworks */,
+				E28867331EA7390900E1A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomSeachUI;
+			productName = TomSeachUI;
+			productReference = E28867351EA7390900E1A60B /* TomSeachUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E288674D1EA7390A00E1A60B /* TomSeachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28867651EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUITests" */;
+			buildPhases = (
+				E288674A1EA7390A00E1A60B /* Sources */,
+				E288674B1EA7390A00E1A60B /* Frameworks */,
+				E288674C1EA7390A00E1A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28867501EA7390A00E1A60B /* PBXTargetDependency */,
+			);
+			name = TomSeachUITests;
+			productName = TomSeachUITests;
+			productReference = E288674E1EA7390A00E1A60B /* TomSeachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28867581EA7390A00E1A60B /* TomSeachUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28867681EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUIUITests" */;
+			buildPhases = (
+				E28867551EA7390A00E1A60B /* Sources */,
+				E28867561EA7390A00E1A60B /* Frameworks */,
+				E28867571EA7390A00E1A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E288675B1EA7390A00E1A60B /* PBXTargetDependency */,
+			);
+			name = TomSeachUIUITests;
+			productName = TomSeachUIUITests;
+			productReference = E28867591EA7390A00E1A60B /* TomSeachUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E288672D1EA7390900E1A60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tom;
+				TargetAttributes = {
+					E28867341EA7390900E1A60B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E288674D1EA7390A00E1A60B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E28867341EA7390900E1A60B;
+					};
+					E28867581EA7390A00E1A60B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E28867341EA7390900E1A60B;
+					};
+				};
+			};
+			buildConfigurationList = E28867301EA7390900E1A60B /* Build configuration list for PBXProject "TomSeachUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E288672C1EA7390900E1A60B;
+			productRefGroup = E28867361EA7390900E1A60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28867341EA7390900E1A60B /* TomSeachUI */,
+				E288674D1EA7390A00E1A60B /* TomSeachUITests */,
+				E28867581EA7390A00E1A60B /* TomSeachUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28867331EA7390900E1A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E1AEA1EA869BF003BFE6C /* close.png in Resources */,
+				E28867481EA7390A00E1A60B /* LaunchScreen.storyboard in Resources */,
+				E28867761EA742E300E1A60B /* search-icon.png in Resources */,
+				E28867771EA742E300E1A60B /* search-icon@2x.png in Resources */,
+				E28867791EA7494900E1A60B /* setting.png in Resources */,
+				E28867451EA7390900E1A60B /* Assets.xcassets in Resources */,
+				E28867881EA758AA00E1A60B /* otherProperties.plist in Resources */,
+				E28867891EA758AA00E1A60B /* properties.plist in Resources */,
+				E28867431EA7390900E1A60B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E288674C1EA7390A00E1A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28867571EA7390A00E1A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28867311EA7390900E1A60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28867401EA7390900E1A60B /* ViewController.m in Sources */,
+				E25E1AC61EA84D11003BFE6C /* UILabel+SMC_UIlable.m in Sources */,
+				E288676E1EA73C0900E1A60B /* TomSearchBar.m in Sources */,
+				E288677C1EA74BCF00E1A60B /* SearchViewController.m in Sources */,
+				E288673D1EA7390900E1A60B /* AppDelegate.m in Sources */,
+				E288673A1EA7390900E1A60B /* main.m in Sources */,
+				E25E1AC01EA84C78003BFE6C /* UIInsetsLabel.m in Sources */,
+				E25E1AC31EA84CAF003BFE6C /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				E25E1ABC1EA8449E003BFE6C /* SearchSettingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E288674A1EA7390A00E1A60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28867531EA7390A00E1A60B /* TomSeachUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28867551EA7390A00E1A60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288675E1EA7390A00E1A60B /* TomSeachUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28867501EA7390A00E1A60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28867341EA7390900E1A60B /* TomSeachUI */;
+			targetProxy = E288674F1EA7390A00E1A60B /* PBXContainerItemProxy */;
+		};
+		E288675B1EA7390A00E1A60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28867341EA7390900E1A60B /* TomSeachUI */;
+			targetProxy = E288675A1EA7390A00E1A60B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28867411EA7390900E1A60B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28867421EA7390900E1A60B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28867461EA7390A00E1A60B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28867471EA7390A00E1A60B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28867601EA7390A00E1A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28867611EA7390A00E1A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28867631EA7390A00E1A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomSeachUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E28867641EA7390A00E1A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TomSeachUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E28867661EA7390A00E1A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomSeachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomSeachUI.app/TomSeachUI";
+			};
+			name = Debug;
+		};
+		E28867671EA7390A00E1A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TomSeachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomSeachUI.app/TomSeachUI";
+			};
+			name = Release;
+		};
+		E28867691EA7390A00E1A60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomSeachUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomSeachUI;
+			};
+			name = Debug;
+		};
+		E288676A1EA7390A00E1A60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TomSeachUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.TomSeachUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TomSeachUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28867301EA7390900E1A60B /* Build configuration list for PBXProject "TomSeachUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28867601EA7390A00E1A60B /* Debug */,
+				E28867611EA7390A00E1A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28867621EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28867631EA7390A00E1A60B /* Debug */,
+				E28867641EA7390A00E1A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28867651EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28867661EA7390A00E1A60B /* Debug */,
+				E28867671EA7390A00E1A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28867681EA7390A00E1A60B /* Build configuration list for PBXNativeTarget "TomSeachUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28867691EA7390A00E1A60B /* Debug */,
+				E288676A1EA7390A00E1A60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E288672D1EA7390900E1A60B /* Project object */;
+}
